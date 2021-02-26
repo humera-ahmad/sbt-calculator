@@ -87,7 +87,7 @@ class CalculatorApiTest extends AnyFlatSpec {
 
   it should "return the minimum of 2 numbers" in {
     val result = calculatorApi.Minimum(-45,3)
-    assertResult(-15)(result)
+    assertResult(-45)(result)
   }
 
 }
